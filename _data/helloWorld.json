@@ -1,0 +1,153 @@
+[
+  {
+    "language_pretty": "JavaScript",
+    "language_jekyll": "javascript",
+    "blurb": "JavaScript is one of the most useful languages to learn since it can be used on both the frontend and the backend if you pick the right stack.",
+    "code": "function exampleFunc() {\n   console.log('Hello javascript!');\n}\nexampleFunc();",
+    "output": "(Take a look in your browser console for the output!)<script>console.log('Hello javascript!');</script>"
+  },{
+    "language_pretty": "HTML",
+    "language_jekyll": "html",
+    "blurb": "Everyone and their sister knows a bit HTML, but it takes a bit of CSS to make it look good.",
+    "code": "<html>\n    <header><title>Title</title></header>\n    <body>\n        Hello html!\n    </body>\n</html>",
+    "output": "Hello html!"
+  }, {
+    "language_pretty": "CSS",
+    "language_jekyll": "css",
+    "blurb": "Only an artist will truly be happy playing with this language all day, but to some it is a craft!",
+    "code": "<style type=\"text/css\">\n#red_id {\n  color: red;\n}\n</style>\n\n<div id=\"red_id\">Hello css!</div>",
+    "output": "<style type=\"text/css\">\n#red_id {\n  color: red;\n}\n</style>\n\n<div id=\"red_id\">Hello css!</div>"
+  }, {
+    "language_pretty": "SQL",
+    "language_jekyll": "sql",
+    "blurb": "PostgreSQL is the best database and so this one is implemnted using it!!! Joking aside, this is probably the most subjective implementation on the list since many databases won't support this syntax.",
+    "code": "SELECT 'Hello sql!';",
+    "output": "Hello sql!"
+  }, {
+    "language_pretty": "Java",
+    "language_jekyll": "java",
+    "blurb": "One of the easiest cross-platform high languages to use, this one is a classic!",
+    "code": "class example {\n     public static void main(String[] args) {\n          System.out.println(\"Hello java!\");\n     }\n}",
+    "output": "Hello java!"
+  }, {
+    "language_pretty": "Bash/shell",
+    "language_jekyll": "shell",
+    "blurb": "The one tool everyone will have installed.",
+    "code": "echo 'Hello shell!'",
+    "output": "Hello shell!"
+  }, {
+    "language_pretty": "Python",
+    "language_jekyll": "python",
+    "blurb": "Although not verified in Brython (Pyhton running in browser), Python is a great scripting language for getting a quick job done quickly.",
+    "code": "# Python 2\nprint('Hello python2!')\n\n# Python 3\nprint 'Hello python3!'",
+    "output": "Hello python2!\nHello Python3"
+  }, {
+    "language_pretty": "C#",
+    "language_jekyll": "c#",
+    "blurb": "Microsoft's Java-equivalent.",
+    "code": "using System;\nnamespace Examples {\n  class Example {\n    static void Main() {\n      Console.WriteLine(\"Hello c#!\");\n    }\n  }\n}",
+    "output": "Hello c#!"
+  }, {
+    "language_pretty": "PHP",
+    "language_jekyll": "php",
+    "blurb": "An old-timer still trying to make a comeback.",
+    "code": "<?php\n    echo 'Hello php!';\n?>",
+    "output": "Hello php!"
+  }, {
+    "language_pretty": "C++",
+    "language_jekyll": "cpp",
+    "blurb": "One of the older languages and a big improvement over C, this language without the extra Microsoft syntax is a great way to get stuff done if you need performance.",
+    "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello cpp!\";\n    return 0;\n}",
+    "output": "Hello cpp!"
+  }, {
+    "language_pretty": "C",
+    "language_jekyll": "c",
+    "blurb": "If you don't really have a lot of space on the chip you are deploying to, this may be a solution, still try C++ first.",
+    "code": "#include <stdio.h>\n \n int main()\n {\n    printf(\"Hello c!\");\n    return 0;\n}",
+    "output": "Hello c!"
+  }, {
+    "language_pretty": "TypeScript",
+    "language_jekyll": "typescript",
+    "blurb": "Ensuring that types never change, this language is a large improvement in reducing bugs compared to basic JavaScript.",
+    "code": "var message:string = \"Hello typescript!\";\nconsole.log(message);",
+    "output": "Hello typescript!"
+  }, {
+    "language_pretty": "Ruby",
+    "language_jekyll": "ruby",
+    "blurb": "The language this blog is written in, once you get used to it, things move quickly!",
+    "code": "puts 'Hello ruby!'",
+    "output": "Hello ruby!"
+  }, {
+    "language_pretty": "Swift",
+    "language_jekyll": "swift",
+    "blurb": "One of the two languages the author hasn't played in yet, From what others have said, this one is a lot like Scala.",
+    "code": "// Swift 2\nprint(\"Hello swift2!\"), \n\n// Swift 1\nprintln(\"Hello swift1!\")",
+    "output": "Hello swift2!\nHello swift1!"
+  }, {
+    "language_pretty": "Assembly",
+    "language_jekyll": "mips",
+    "blurb": "Mips is the assembly language of choice in schools, this example is pulled from a homework assignment years ago!",
+    "code": "      .data\nmsg1: .asciiz	\"Hello mips!\"\n      .text\nmain: \n      li $v0, 4		#load print string code\n      la $a0, msg1\n      syscall\n\n      li $v0 10		#load Exit code\n      syscall",
+    "output": "Hello mips!"
+  }, {
+    "language_pretty": "Golang",
+    "language_jekyll": "go",
+    "blurb": "GO GO GO!!! Parallel programming is a dream with this modern language!",
+    "code": "package main\n\n\nimport \"fmt\"\n\nfunc main() {\n  fmt.Println(\"Hello go!\")\n}",
+    "output": "Hello go!"
+  }, {
+    "language_pretty": "Objective-C",
+    "language_jekyll": "objectivec",
+    "blurb": "",
+    "code": "#import <Foundation/Foundation.h>\n\nint main() {\n   NSLog(@\"Hello objectivec!\");\n   return 0;\n}",
+    "output": "hello objectivec"
+  }, {
+    "language_pretty": "VB.Net",
+    "language_jekyll": "vb",
+    "blurb": "",
+    "code": "Module Example\n Sub Main()\n    Console.WriteLine(\"Hello visualbasic!\")\n  End Sub\nEnd Module",
+    "output": "visualbasic"
+  }, {
+    "language_pretty": "R",
+    "language_jekyll": "r",
+    "blurb": "Making satiation's lives a dream but students in college a nightmare, this language is purpose-built",
+    "code": "print(\"Hello r!\")",
+    "output": "Hello r!"
+  }, {
+    "language_pretty": "MatLab",
+    "language_jekyll": "matlab",
+    "blurb": "A great first programming language in college to learn about variables and loops, most people move on except for mathematicians.",
+    "code": "disp('hello matlab!')",
+    "output": "Hello matlab!"
+  }, {
+    "language_pretty": "VBA",
+    "language_jekyll": "visualbasic",
+    "blurb": "As an older version of VB.Net, this one works great in excel to do the dirty work.",
+    "code": "Module Example\n Sub Main()\n    Console.WriteLine(\"Hello vb!\")\n  End Sub\nEnd Module",
+    "output": "Hello vb"
+  }, {
+    "language_pretty": "Kotlin",
+    "language_jekyll": "kotlin",
+    "blurb": "Statically typed and ready to run on most machines because this language runs on the JVM.",
+    "code": "fun main(args : Array<String>) {\n println(\"Hello kotlin!\")\n}",
+    "output": "Hello kotlin!"
+  }, {
+    "language_pretty": "Scala",
+    "language_jekyll": "scala",
+    "blurb": "Similar to Kotlin (the one right above me), this language is a higher level version JVM language.",
+    "code": "object Example {\n println(\"Hello scala!\")\n}",
+    "output": "Hello scala!"
+  }, {
+    "language_pretty": "Groovy",
+    "language_jekyll": "groovy",
+    "blurb": "As the fourth and final language that runs on the JVM, this one is another higher level one written to be easier to write than pure Java.",
+    "code": "",
+    "output": "Hello groovy!"
+  }, {
+    "language_pretty": "Perl",
+    "language_jekyll": "perl",
+    "blurb": "As simple as this example is, this one is one that was never used by this author and had to be looked up on the internet.",
+    "code": "print \"Hello World\";",
+    "output": "hello perl!"
+  }
+]
